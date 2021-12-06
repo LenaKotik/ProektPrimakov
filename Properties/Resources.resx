@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AlehzeyMich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\AlehzeyMich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlehzeyPetrovi4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alehzeypetrovi4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnneIoanovna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anneioanovna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnneLeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anneleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnnePetrovna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\annepetrovna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ekaterine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ekaterine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ekaterine2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ekaterine2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EkaterineIoanovna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ekaterineioanovna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElizabethPetrovna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\elizabethpetrovna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EvdokiaLopukhina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\evdokialopukhina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ivan5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ivan5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ivan6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ivan6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MariaMilosl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\mariamilosl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NataliaNarish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\natalianarish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Petr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\petr1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Petr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\petr2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Petr3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\petr3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redCross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\redcross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Анна Иоановна" xml:space="preserve">
+    <value>1730 г.: Взошла на престол Анна Ивановна при условии подписания особых “бумаг”, ограничивавших ее правление.
+Но когда планы Верховного Тайного совета стали достоянием общественности,
+Анна Ивановна разрушила “условия” и сохранила аристократическую форму правления. 
+Важные действия данного правителя:
+1730 г. — упразднение Верховного тайного совета.
+1731 г. — создание кабинета министров (Черкасский, Остерман, Головкин)
+1731 г. — отмена указа о единонаследии.
+1731 г. — создание Шляхетского сухопутного кадетского корпуса.
+1731 г. — принятие младшего Шуза в состав России.
+1732 г. — создание Измайловского и конногвардейского полка.
+1732 г. — перенос столицы из Москвы в Санкт-Петербург.
+1733-1735 г. — Русско-Польская война.
+1735-1739 г. — Русско-Турецкая война. Был заключён Белградский мирный договор.
+	Одной из главных причин ее восохода также является отсутствие наследника престола.
+
+За этот период Россия принимала активное участие в войнах. В 1733-1735 годах Россия, Австрия и Польша воевали против 
+Франции в войне за наследство. В 1736-1739 годах снова вместе с Австрией воевала против Османской империи, поддерживаемой 
+Францией. Однако после того, как Россия потеряла около 100 000 человек из-за поражений Австрии, по Белградскому договору
+ она получила право оставаться в захваченном во время войны Азове при условии, что не будет строить флот только в 
+Черном море.</value>
+  </data>
+  <data name="Екатерина I" xml:space="preserve">
+    <value>1725 г.: возведение на престол императрицы Екатерины I под наблюдением партии Меншикова. 
+Её не особо волновали государственные вросы,поэтому она создала специальный 
+орган --Верховный Тайный совет, который получил полномочия назначать высших чиновников,
+ведать финансами, руководить деятельностью Сената, Синода, коллегий, в состав вошли: 
+Меншиков, Апраксин, Головкин, Голицын, Остерман, П.А. Толстой. 
+Важные действия данного правителя: 
+1725 г. — открытие Академии наук.
+1725 г. — открытие Берингова пролива.
+1726 г. — запрет крестьянам уходить на промысел (бордничество, охота) без разрешения помещика.
+
+	Ектерина I в 1725 году фактически исполнила завещание Петра Велкого - создала в России Академию наук.
+Этот шаг задал своеобразный вектор развития русской науки и образования. Они выстраивались сверху:
+в стране на пустом месте сначала появилась академия наук, потом университет, а потом уже система школ.
+В Европу полетели приглашения, на которые откликнулись зоолог и анатом Иоганн Георг Дю Вернуа,
+астроном и картограф Жозеф-Николя Де Лиль, математики братья Даниил и Николай Бернулли, историк Герхард Миллер.
+В момент основания академии в России просто не было людей, способных пополнить собой ряды академиков.
+Позже такие люди появились, но их было немного: из 60 профессоров-академиков XVIII века,
+только 24 были русскими.
+
+	Причиной начала правления представительницы женсого пола на Российском престоле
+является смерть первенца Петра Первого -- Алексея Романова, который по старому порядку 
+должен был унаследовать престол Петра Великого, ни один из вариантов новой замены правителя 
+Российской империи не казался приемлемым. Петр Великий изо всех сил пытался принять закон, позволяющий монарху выбирать своего последователя, но умер раньше,
+чем успел, так и не испытав на практике введенное им новшество.</value>
+  </data>
+  <data name="Елизавета Петровна" xml:space="preserve">
+    <value>1741 г.: возведение на престол императрицы Елизаветы Петровны при помощьи гвардейцев.
+Дочь Петра быстро избавилась от немцев в правительстве и вернулась к государственным принципам
+Петра Великого. Она продолжила "дело" отца. 
+Важные действия правителя:
+1744 г. — упорядочение системы налогообложения.
+1755 г. — основание Московского университета.
+1757 г. — учреждение Академии художеств.
+1756-1761 г. — участие России в Семилетней войне.
+___________________________
+	Елизавета Петровна выгодно отличалась в понимании культуры. Ее экстравагантный стиль правления,
+любовь к французской культуре и к развлечениям стали плодотворной почвой для нового подъема
+русской культуры в 1740-1750-е годы.
+	Архитектура русского барокко XVIII века связана с именем Бартоломео Франческо Растрелли.
+Растрелли приехал в Россию вместе со своим отцом, известным скульптором. 
+Он стал автором трех выдающихся дворцов в Петербурге и его окрестностях, ставших вершинами дворцового барокко.
+В центре столицы он построил Зимний дворец. В Петергофе — Большой дворец,
+известный своим каскадом фонтанов. Но настоящим шедевром стал огромный 300-метровый
+Екатерининский дворец в Царском селе, утопающий в роскошной позолоте. Зимний дворец станет
+официальной резиденцией русских императоров, а Царское село — их местом летнего отдыха.
+	В 1748 году Елизавета Петровна, причудливо сочетавшая в своей натуре фривольность и богомолье,
+учредила на окраине Петербурга Смольный монастырь, для которого Растрелли создал Смольный собор.
+В роскошном барочном убранстве собора угадывалась композиция традиционного русского храма.
+	Культура барокко неотделима от музыки и театра, которые особенно любила Елизавета
+Петровна. Чаще, чем прежде, при дворе стали ставить оперы и балеты и приглашать музыкантов.
+Появилось сложнейшее искусство роговых оркестров, в которых каждый рог издавал только одну ноту.
+Ярославский купец Федор Волков благодаря поддержке императрицы, в 1756 году основал в Петербурге
+первый публичный театр. Директором театра и основным драматургом стал Сумароков,
+а главным режиссером и актером сам Волков.
+___________________________
+
+Причиной скорого начала её правления является свержение Бирона, как регента страны, партией под командованием Миниха.
+	В 1741-1743 годах Россия воевала со Швецией. Участвовала в Семилетней войне
+в 1756-1763 годах. В 1760 году ненадолго был захвачен Берлин.</value>
+  </data>
+  <data name="Иван VI" xml:space="preserve">
+    <value>1740 г.: Правление Ивана VI. Время его правллеия также называют периодом Бироновщины .
+Мальчику было несколько месяцев, так что фактическим правителем страны был регент Бирон -- 
+сподвижник Анны 	Иоановны. 
+Важные действия правителя:
+1741 г. — Ликвидация кабинета министров (его роль передаётся Сенату)
+1741 г. — создание личной императорской канцелярии.
+1741 г. — замена смертной казни каторгой.
+1741-1743 г. — война России со Швецией.</value>
+  </data>
+  <data name="Пётр II" xml:space="preserve">
+    <value>1727 г.: после смерти Екатерины, которую не очень волновали государственные вопросы,
+трон передается Петру II в обход других кандидатов. Ко времени смерти Петра II основные функции власти
+находились в руках Верховного Тайного совета.
+Важные действия правителя:
+1728 г. — прекращение строительства линейных кораблей.
+1728 г. — перенос столицы из Санкт-Петербурга в Москву.</value>
+  </data>
+  <data name="Пётр III" xml:space="preserve">
+    <value>1761: трон перешел к Петру III. Он не был патриотом. Как только он взошел на Российский престол,
+он остановил русские завоевания в Пруссии. Подписал соглашение с Фредрихом и разорвал
+союз России с Австрией и Францией. Император, не заинтересованный в политических пытках,
+пригрозил расформировать охрану, заявив, что подпишет закон, предусматривающий прекращение полиции безопасности. 
+А во внешней политике он отстранился от участия в Семилетней войны.  
+Важные действия правителя,
+которые послужили причинами нового дворцового переворота:
+1761 г. — выход России из Семилетней войны.
+1762 г. — роспуск конференции при высочайшем дворе.
+1762 г. — упразднение Тайной канцелярии.
+1762 г. — уравнение в правах протистансткую и православную церковь.
+1762 г. — манифест о вольности дворян.
+
+	Воспользовавшись недовольством народа и армии, не желая снова видеть Россию под немецким влиянием,
+летом 1762 года гвардия направилась на новый дворцовый переворот. Император был легко свергнут.
+Во время ссоры был убит один из лидеров восстания Алексей Орлов. Так, в 1762 году жена Петра Третьего,
+императрица Екатерина II, стала объявленной правительницей страны.</value>
+  </data>
+</root>
