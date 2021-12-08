@@ -12,9 +12,9 @@ using System.Text.Json;
 
 namespace Project
 {
-    public partial class LeaderBorads : Form
+    public partial class LeaderBoards : Form
     {
-        public LeaderBorads()
+        public LeaderBoards()
         {
             InitializeComponent();
             this.buttonExit.Location = new Point(this.buttonExit.Location.X + 400, this.buttonExit.Location.Y);
@@ -28,7 +28,7 @@ namespace Project
         {
             using (HttpClient client = new HttpClient())
             {
-                string url = "https://localhost:44327/leaderboardsxxx";
+                string url = "https://historyserver20211206012050.azurewebsites.net/Home/Table/0";
                 try
                 {
                     var msg = await client.GetStreamAsync(url);

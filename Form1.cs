@@ -156,7 +156,7 @@ namespace Project
 
         private void buttonTable_Click(object sender, EventArgs e)
         {
-            LeaderBorads l = new LeaderBorads();
+            LeaderBoards l = new LeaderBoards();
             l.Show();
             this.Hide();
         }

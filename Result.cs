@@ -41,11 +41,18 @@ namespace Project
             s.Name = this.NameTxt.Text;
             s.Result = (int)(p * 100);
             s.Result = 69;//testing
-            string url = "https://localhost:44327/send";
+            string url = "https://historyserver20211206012050.azurewebsites.net/send";
             using HttpClient client = new HttpClient();
             {
-                try {
-                    await client.PostAsJsonAsync<Student>(url, s);
+                try
+                {
+                    Dictionary<string, string> d = new Dictionary<string, string>()
+                    {
+                        { "name", s.Name },
+                        { "result",s.Result.ToString() } 
+                    };
+                    var content = new FormUrlEncodedContent(d);
+                    await client.PostAsync(url, content);
                 }
                 catch (Exception exc)
                 {

@@ -89,7 +89,7 @@ namespace Project
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(233, 99);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(496, 49);
+            this.button1.Size = new System.Drawing.Size(599, 49);
             this.button1.TabIndex = 3;
             this.button1.Text = "A: нет";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -103,7 +103,7 @@ namespace Project
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(233, 154);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(496, 49);
+            this.button2.Size = new System.Drawing.Size(599, 49);
             this.button2.TabIndex = 4;
             this.button2.Text = "B: В 1800";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -117,7 +117,7 @@ namespace Project
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(233, 209);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(496, 49);
+            this.button3.Size = new System.Drawing.Size(599, 49);
             this.button3.TabIndex = 5;
             this.button3.Text = "C: в 2000";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -131,7 +131,7 @@ namespace Project
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.Location = new System.Drawing.Point(233, 264);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(496, 49);
+            this.button4.Size = new System.Drawing.Size(599, 49);
             this.button4.TabIndex = 6;
             this.button4.Text = "D:  в 1900";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

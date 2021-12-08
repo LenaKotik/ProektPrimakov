@@ -20,7 +20,7 @@ namespace Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             mainForm = new Form1();
-            Application.Run(new Result());//mainForm);
+            Application.Run(mainForm);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Project
 {
-    partial class LeaderBorads
+    partial class LeaderBoards
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Project
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LeaderBorads));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LeaderBoards));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
