@@ -28,11 +28,11 @@ namespace Project
         {
             using (HttpClient client = new HttpClient())
             {
-                string url = "https://historyserver20211206012050.azurewebsites.net/Home/Table/0";
+                string url = "https://historyserver20211206012050.azurewebsites.net/Home/Table?n=0";
                 try
                 {
                     var msg = await client.GetStreamAsync(url);
-                    List<Student> students = await JsonSerializer.DeserializeAsync<List<Student>>(msg);
+                    List<DisplayModel> students = DisplayModel.Parse(await JsonSerializer.DeserializeAsync<List<Student>>(msg));
                     dataGridView1.DataSource = (students.Count > 20) ? students.GetRange(0,20) : students;
                 }
                 catch
@@ -45,6 +45,26 @@ namespace Project
         private void buttonExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+    }
+    class DisplayModel
+    {
+        public string Имя { set; get; }
+        public DateTime Дата { set; get; }
+        public int Результат { set; get; }
+
+        public static List<DisplayModel> Parse(List<Student> students)
+        {
+            List<DisplayModel> res = new List<DisplayModel>();
+            foreach (Student s in students)
+            {
+                DisplayModel dm = new DisplayModel();
+                dm.Дата = s.Date.ToLocalTime();
+                dm.Имя = s.Name;
+                dm.Результат = s.Result;
+                res.Add(dm);
+            }
+            return res;
         }
     }
 }

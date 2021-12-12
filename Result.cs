@@ -37,10 +37,17 @@ namespace Project
         }
         async void Send(object sender, EventArgs e)
         {
+            if (this.NameTxt.Text.Length < 3 || this.NameTxt.Text.Length > 30)
+            {
+                MessageBox.Show("Имя должно быть не короче 3 символов и не длинее 30 символов", "Неправильное имя", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+            }
+            if (Encoding.UTF8.GetByteCount(this.NameTxt.Text) == this.NameTxt.Text.Length)
+            {
+                MessageBox.Show("Имя должно содержать только ASCII символы (латинские буквы, цифры и спец. символы)", "Неправильное имя", MessageBoxButtons.OK, MessageBoxIcon.Error);return;
+            }
             Student s = new Student();
             s.Name = this.NameTxt.Text;
             s.Result = (int)(p * 100);
-            s.Result = 69;//testing
             string url = "https://historyserver20211206012050.azurewebsites.net/send";
             using HttpClient client = new HttpClient();
             {
