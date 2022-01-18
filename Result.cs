@@ -45,8 +45,7 @@ namespace Project
             Student s = new Student();
             s.Name = encoder.Encode(this.NameTxt.Text);
             s.Result = (int)(p * 100);
-            //string url = "https://historyserver20211206012050.azurewebsites.net/send";
-            string url = "https://localhost:44361/send";
+            string url = "https://historyserver20211206012050.azurewebsites.net/send";
             using HttpClient client = new HttpClient();
             {
                 try

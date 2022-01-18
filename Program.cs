@@ -20,10 +20,7 @@ namespace Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             mainForm = new Form1();
-            Application.Run(mainForm);/*
-            // ---DEBUGING--- \\
-            score = 9;
-            Application.Run(new Result());*/
+            Application.Run(mainForm);
         }
     }
 }
