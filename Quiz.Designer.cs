@@ -145,7 +145,7 @@ namespace Project
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(189, 26);
             this.label2.TabIndex = 7;
-            this.label2.Text = "задание на 2 балла";
+            this.label2.Text = "2 кромер";
             // 
             // label3
             // 

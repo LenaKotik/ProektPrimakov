@@ -41,14 +41,12 @@ namespace Project
             {
                 MessageBox.Show("Имя должно быть не короче 3 символов и не длинее 30 символов", "Неправильное имя", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
             }
-            if (Encoding.UTF8.GetByteCount(this.NameTxt.Text) == this.NameTxt.Text.Length)
-            {
-                MessageBox.Show("Имя должно содержать только ASCII символы (латинские буквы, цифры и спец. символы)", "Неправильное имя", MessageBoxButtons.OK, MessageBoxIcon.Error);return;
-            }
+            DoubleEncoding encoder = new DoubleEncoding();
             Student s = new Student();
-            s.Name = this.NameTxt.Text;
+            s.Name = encoder.Encode(this.NameTxt.Text);
             s.Result = (int)(p * 100);
-            string url = "https://historyserver20211206012050.azurewebsites.net/send";
+            //string url = "https://historyserver20211206012050.azurewebsites.net/send";
+            string url = "https://localhost:44361/send";
             using HttpClient client = new HttpClient();
             {
                 try

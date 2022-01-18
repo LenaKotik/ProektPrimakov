@@ -58,9 +58,10 @@ namespace Project
             List<DisplayModel> res = new List<DisplayModel>();
             foreach (Student s in students)
             {
+                DoubleEncoding decoder = new DoubleEncoding();
                 DisplayModel dm = new DisplayModel();
                 dm.Дата = s.Date.ToLocalTime();
-                dm.Имя = s.Name;
+                dm.Имя = decoder.Decode(s.Name);
                 dm.Результат = s.Result;
                 res.Add(dm);
             }
