@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.IO;
 using System.Windows.Forms;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -35,7 +36,7 @@ namespace Project
             relative.Text = $"{Program.score}/24";
             grade.Text = (Math.Round(p / 2 * 10, MidpointRounding.ToPositiveInfinity)).ToString();
         }
-        async void Send(object sender, EventArgs e)
+        void Send(object sender, EventArgs e)
         {
             if (this.NameTxt.Text.Length < 3 || this.NameTxt.Text.Length > 30)
             {
@@ -45,6 +46,7 @@ namespace Project
             Student s = new Student();
             s.Name = encoder.Encode(this.NameTxt.Text);
             s.Result = (int)(p * 100);
+            /*
             string url = "https://historyserver20211206012050.azurewebsites.net/send";
             using HttpClient client = new HttpClient();
             {
@@ -65,6 +67,11 @@ namespace Project
                 }
                 MessageBox.Show("Отправлено успешно!", "Sucess", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
+            */
+            string localTablePath = "LocalSave.txt";
+            string data = $"{s.Name},{s.Result.ToString()},{DateTime.Now.ToString()};";
+            File.AppendAllText(localTablePath, data);
+            MessageBox.Show("Сохранено успешно!", "Sucess", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

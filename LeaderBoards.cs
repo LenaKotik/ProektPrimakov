@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 using System.Net.Http.Headers;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -26,19 +27,33 @@ namespace Project
         }
         async void PrintResponse()
         {
-            using (HttpClient client = new HttpClient())
+            /* works no longer, sadly
+               using (HttpClient client = new HttpClient())
+               {
+                   string url = "https://historyserver20211206012050.azurewebsites.net/Home/Table?n=0";
+                   try
+                   {
+                       var msg = await client.GetStreamAsync(url);
+                       List<DisplayModel> students = DisplayModel.Parse(await JsonSerializer.DeserializeAsync<List<Student>>(msg));
+                       dataGridView1.DataSource = (students.Count > 20) ? students.GetRange(0,20) : students;
+                   }
+                   catch
+                   {
+                       MessageBox.Show("Не удалось получить данные с сервера", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                   } 
+               }
+            */
+            string localTablePath = "LocalSave.txt";
+            if (!File.Exists(localTablePath)) return;
+            try
             {
-                string url = "https://historyserver20211206012050.azurewebsites.net/Home/Table?n=0";
-                try
-                {
-                    var msg = await client.GetStreamAsync(url);
-                    List<DisplayModel> students = DisplayModel.Parse(await JsonSerializer.DeserializeAsync<List<Student>>(msg));
-                    dataGridView1.DataSource = (students.Count > 20) ? students.GetRange(0,20) : students;
-                }
-                catch
-                {
-                    MessageBox.Show("Не удалось получить данные с сервера", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                } 
+                string text = File.ReadAllText(localTablePath);
+                List<DisplayModel> students = DisplayModel.Parse(text.Split(';'));
+                dataGridView1.DataSource = (students.Count > 20) ? students.GetRange(0, 20) : students;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Не удалось получить данные с диска " + e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -56,13 +71,29 @@ namespace Project
         public static List<DisplayModel> Parse(List<Student> students)
         {
             List<DisplayModel> res = new List<DisplayModel>();
+            DoubleEncoding decoder = new DoubleEncoding();
             foreach (Student s in students)
             {
-                DoubleEncoding decoder = new DoubleEncoding();
                 DisplayModel dm = new DisplayModel();
                 dm.Дата = s.Date.ToLocalTime();
                 dm.Имя = decoder.Decode(s.Name);
                 dm.Результат = s.Result;
+                res.Add(dm);
+            }
+            return res;
+        }
+        public static List<DisplayModel> Parse(IEnumerable<string> str)
+        {
+            List<DisplayModel> res = new List<DisplayModel>();
+            DoubleEncoding decoder = new DoubleEncoding();
+            foreach (string s in str)
+            {
+                if (s == "") continue;
+                string[] splits = s.Split(',');
+                DisplayModel dm = new DisplayModel();
+                dm.Имя = decoder.Decode(splits[0]);
+                dm.Результат = int.Parse(splits[1]);
+                dm.Дата = DateTime.Parse(splits[2]);
                 res.Add(dm);
             }
             return res;

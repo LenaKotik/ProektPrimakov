@@ -38,7 +38,6 @@ namespace Project
             this.NameTxt = new System.Windows.Forms.TextBox();
             this.buttonSend = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.kromerlabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,7 +110,7 @@ namespace Project
             this.buttonSend.Name = "buttonSend";
             this.buttonSend.Size = new System.Drawing.Size(180, 34);
             this.buttonSend.TabIndex = 6;
-            this.buttonSend.Text = "Отправить результат";
+            this.buttonSend.Text = "Сохранить";
             this.buttonSend.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -123,15 +122,6 @@ namespace Project
             this.panel1.Size = new System.Drawing.Size(218, 119);
             this.panel1.TabIndex = 7;
             // 
-            // kromerlabel
-            // 
-            this.kromerlabel.Location = new System.Drawing.Point(582, 28);
-            this.kromerlabel.Name = "kromerlabel";
-            this.kromerlabel.Size = new System.Drawing.Size(88, 17);
-            this.kromerlabel.TabIndex = 8;
-            this.kromerlabel.Text = "твой кромер:";
-            this.kromerlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Result
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -140,7 +130,6 @@ namespace Project
             this.BackgroundImage = global::Project.Properties.Resources.bg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(855, 354);
-            this.Controls.Add(this.kromerlabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.relative);
@@ -168,6 +157,5 @@ namespace Project
         private System.Windows.Forms.TextBox NameTxt;
         private System.Windows.Forms.Button buttonSend;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label kromerlabel;
     }
 }

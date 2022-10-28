@@ -34,14 +34,14 @@ namespace Project
             nodeAnI.Image = Properties.Resources.AnneIoanovna;
             nodeAnI.DisplayName = "Анна Иоановна";
             nodeAnI.Date = "1730-1740";
-            nodeAnI.MyClick += OnClick;
+            nodeAnI.Activate(OnClick);
             nodeAl.Image = Properties.Resources.AlehzeyPetrovi4;
             nodeAl.DisplayName = "Алексей Петрович";
             nodeAl.Date = "";
             nodeE1.Image = Properties.Resources.Ekaterine1;
             nodeE1.DisplayName = "Екатерина I";
             nodeE1.Date = "1725-1727";
-            nodeE1.MyClick += OnClick;
+            nodeE1.Activate(OnClick);
             nodeE1.Location = new Point(nodeE1.Location.X + 300, nodeE1.Location.Y);
             nodeAn.Image = Properties.Resources.AnnePetrovna;
             nodeAn.DisplayName = "Анна Петровна";
@@ -49,7 +49,7 @@ namespace Project
             node1.Image = Properties.Resources.Ivan6;
             node1.DisplayName = "Иван VI";
             node1.Date = "1740-1741";
-            node1.MyClick += OnClick;
+            node1.Activate(OnClick);
             nodeAnL.Image = Properties.Resources.AnneLeo;
             nodeAnL.DisplayName = "Анна Леопольдовна";
             nodeAnL.Date = "";
@@ -60,11 +60,10 @@ namespace Project
             nodeE2.DisplayName = "Екатерина II";
             nodeE2.Date = "1762-1796";
             nodeE2.Location = new Point(nodeE2.Location.X + 100, nodeE2.Location.Y);
-            //nodeE2.MyClick += OnClick;
             nodeEl.Image = Properties.Resources.ElizabethPetrovna;
             nodeEl.DisplayName = "Елизавета Петровна";
-            nodeEl.Date = "1740-1761";
-            nodeEl.MyClick += OnClick;
+            nodeEl.Date = "1741-1761";
+            nodeEl.Activate(OnClick);
             nodeEvL.Image = Properties.Resources.EvdokiaLopukhina;
             nodeEvL.DisplayName = "Евдокия Лопухина";
             nodeEvL.Date = "";
@@ -82,15 +81,14 @@ namespace Project
             nodeP1.DisplayName = "Пётр I";
             nodeP1.Date = "1682-1725";
             nodeP1.Location = new Point(nodeP1.Location.X + 200, nodeP1.Location.Y);
-            //nodeP1.MyClick += OnClick;
             nodeP2.Image = Properties.Resources.Petr2;
             nodeP2.DisplayName = "Пётр II";
             nodeP2.Date = "1727-1730";
-            nodeP2.MyClick += OnClick;
+            nodeP2.Activate(OnClick);
             nodeP3.Image = Properties.Resources.Petr3;
             nodeP3.DisplayName = "Пётр III";
             nodeP3.Date = "1761-1762";
-            nodeP3.MyClick += OnClick;
+            nodeP3.Activate(OnClick);
             #endregion
             this.buttonExit.Location = new Point(this.buttonExit.Location.X+375,this.buttonExit.Location.Y);
             this.TopMost = true;
@@ -158,7 +156,7 @@ namespace Project
         {
             LeaderBoards l = new LeaderBoards();
             l.Show();
-            this.Hide();
+            this.Hide(); 
         }
     }
 }

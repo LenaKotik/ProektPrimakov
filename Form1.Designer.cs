@@ -56,7 +56,7 @@ namespace Project
             // 
             // nodeAlM
             // 
-            this.nodeAlM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeAlM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeAlM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeAlM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeAlM.DisplayName = "Алексей Михайлович";
@@ -68,7 +68,7 @@ namespace Project
             // 
             // nodeMaM
             // 
-            this.nodeMaM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeMaM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeMaM.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeMaM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeMaM.DisplayName = "Алексей Михайлович";
@@ -80,7 +80,7 @@ namespace Project
             // 
             // nodeNaN
             // 
-            this.nodeNaN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeNaN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeNaN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeNaN.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeNaN.DisplayName = "Алексей Михайлович";
@@ -92,7 +92,7 @@ namespace Project
             // 
             // nodeI5
             // 
-            this.nodeI5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeI5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeI5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeI5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeI5.DisplayName = "Алексей Михайлович";
@@ -104,7 +104,7 @@ namespace Project
             // 
             // nodeP1
             // 
-            this.nodeP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeP1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeP1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeP1.DisplayName = "Алексей Михайлович";
@@ -116,7 +116,7 @@ namespace Project
             // 
             // nodeEvL
             // 
-            this.nodeEvL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeEvL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeEvL.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeEvL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeEvL.DisplayName = "Алексей Михайлович";
@@ -128,7 +128,7 @@ namespace Project
             // 
             // nodeE1
             // 
-            this.nodeE1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeE1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeE1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeE1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeE1.DisplayName = "Алексей Михайлович";
@@ -140,7 +140,7 @@ namespace Project
             // 
             // nodeE
             // 
-            this.nodeE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeE.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeE.DisplayName = "Алексей Михайлович";
@@ -152,7 +152,7 @@ namespace Project
             // 
             // nodeAnI
             // 
-            this.nodeAnI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeAnI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeAnI.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeAnI.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeAnI.DisplayName = "Алексей Михайлович";
@@ -164,7 +164,7 @@ namespace Project
             // 
             // nodeAnL
             // 
-            this.nodeAnL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeAnL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeAnL.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeAnL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeAnL.DisplayName = "Алексей Михайлович";
@@ -176,7 +176,7 @@ namespace Project
             // 
             // node1
             // 
-            this.node1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.node1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.node1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.node1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.node1.DisplayName = "Алексей Михайлович";
@@ -188,7 +188,7 @@ namespace Project
             // 
             // nodeAl
             // 
-            this.nodeAl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeAl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeAl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeAl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeAl.DisplayName = "Алексей Михайлович";
@@ -200,7 +200,7 @@ namespace Project
             // 
             // nodeAn
             // 
-            this.nodeAn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeAn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeAn.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeAn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeAn.DisplayName = "Алексей Михайлович";
@@ -212,7 +212,7 @@ namespace Project
             // 
             // nodeEl
             // 
-            this.nodeEl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeEl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeEl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeEl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeEl.DisplayName = "Алексей Михайлович";
@@ -224,7 +224,7 @@ namespace Project
             // 
             // nodeP2
             // 
-            this.nodeP2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeP2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeP2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeP2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeP2.DisplayName = "Алексей Михайлович";
@@ -236,7 +236,7 @@ namespace Project
             // 
             // nodeP3
             // 
-            this.nodeP3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeP3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeP3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeP3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeP3.DisplayName = "Алексей Михайлович";
@@ -248,7 +248,7 @@ namespace Project
             // 
             // nodeE2
             // 
-            this.nodeE2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.nodeE2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(112)))), ((int)(((byte)(68)))));
             this.nodeE2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.nodeE2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nodeE2.DisplayName = "Алексей Михайлович";
@@ -291,9 +291,9 @@ namespace Project
             this.quiz.Font = new System.Drawing.Font("November", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.quiz.Location = new System.Drawing.Point(12, 837);
             this.quiz.Name = "quiz";
-            this.quiz.Size = new System.Drawing.Size(100, 100);
+            this.quiz.Size = new System.Drawing.Size(170, 100);
             this.quiz.TabIndex = 19;
-            this.quiz.Text = "quiz";
+            this.quiz.Text = "Викторина";
             this.quiz.UseVisualStyleBackColor = false;
             // 
             // buttonExit
@@ -319,11 +319,11 @@ namespace Project
             this.buttonTable.BackColor = System.Drawing.Color.Aqua;
             this.buttonTable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonTable.Font = new System.Drawing.Font("November", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonTable.Location = new System.Drawing.Point(118, 871);
+            this.buttonTable.Location = new System.Drawing.Point(12, 756);
             this.buttonTable.Name = "buttonTable";
-            this.buttonTable.Size = new System.Drawing.Size(74, 66);
+            this.buttonTable.Size = new System.Drawing.Size(104, 66);
             this.buttonTable.TabIndex = 21;
-            this.buttonTable.Text = "Table";
+            this.buttonTable.Text = "Таблица";
             this.buttonTable.UseVisualStyleBackColor = false;
             this.buttonTable.Click += new System.EventHandler(this.buttonTable_Click);
             // 
@@ -333,7 +333,7 @@ namespace Project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(1350, 520);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.buttonTable);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.quiz);

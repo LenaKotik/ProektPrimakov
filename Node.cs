@@ -10,10 +10,12 @@ namespace Project
 {
     public partial class Node : UserControl
     {
+        bool active = false;
+
         public event MouseEventHandler MyClick;
         void CallMyClick(object sender, MouseEventArgs e)
         {
-            this.MyClick?.Invoke(this, e);
+            if (active) MyClick?.Invoke(this, e);
         }
         public Node()
         {
@@ -26,10 +28,10 @@ namespace Project
             this.pictureBox1.MouseLeave += this.OnMouseLeave;
             this.label1.MouseLeave += this.OnMouseLeave;
             this.label2.MouseLeave += this.OnMouseLeave;
-            this.MouseClick += CallMyClick;
-            this.label1.MouseClick += CallMyClick;
-            this.label2.MouseClick += CallMyClick;
-            this.pictureBox1.MouseClick += CallMyClick;
+            this.MouseClick += this.CallMyClick;
+            this.label1.MouseClick += this.CallMyClick;
+            this.label2.MouseClick += this.CallMyClick;
+            this.pictureBox1.MouseClick += this.CallMyClick;
         }
         public Image Image { set => this.pictureBox1.Image = value; get => this.pictureBox1.Image; }
         public string DisplayName { set => label1.Text = value; get => this.label1.Text; }
@@ -37,11 +39,19 @@ namespace Project
 
         private void OnMouseLeave(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(255, 192, 128);
+            if (active)
+                this.BackColor = Color.FromArgb(255, 192, 128);
         }
         private void OnMouseEnter(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(205, 142, 78);
+            if (active)
+                this.BackColor = Color.FromArgb(205, 142, 78);
+        }
+        public void Activate(MouseEventHandler handler)
+        {
+            this.active = true;
+            this.BackColor = Color.FromArgb(255, 192, 128);
+            this.MyClick += handler;
         }
     }
 }
