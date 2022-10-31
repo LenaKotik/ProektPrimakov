@@ -143,7 +143,7 @@ namespace Project
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(12, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 26);
+            this.label2.Size = new System.Drawing.Size(94, 26);
             this.label2.TabIndex = 7;
             this.label2.Text = "2 кромер";
             // 
@@ -160,7 +160,7 @@ namespace Project
             // buttonExit
             // 
             this.buttonExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.buttonExit.Location = new System.Drawing.Point(670, 12);
+            this.buttonExit.Location = new System.Drawing.Point(12, 99);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(108, 29);
             this.buttonExit.TabIndex = 9;

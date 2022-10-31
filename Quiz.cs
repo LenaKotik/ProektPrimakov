@@ -24,7 +24,6 @@ namespace Project
             timer1.Tick += Update;
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
-            this.buttonExit.Location = new Point(this.buttonExit.Location.X + 550, this.buttonExit.Location.Y);
             this.label1.Location = new Point(this.label1.Location.X + 150, this.label1.Location.Y + 150);
             this.label2.Location = new Point(this.label2.Location.X, this.label2.Location.Y + 400);
             this.label3.Location = new Point(this.label3.Location.X + 550, this.label3.Location.Y + 400);
